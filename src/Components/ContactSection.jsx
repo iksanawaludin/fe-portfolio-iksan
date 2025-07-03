@@ -15,7 +15,7 @@ const ContactSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('https://d703122b-9954-4101-98a9-a3f2e4f0edcb-00-3st06cvlopl7m.sisko.replit.dev/', {
+      const res = await fetch('https://d703122b-9954-4101-98a9-a3f2e4f0edcb-00-3st06cvlopl7m.sisko.replit.dev/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
