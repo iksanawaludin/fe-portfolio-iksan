@@ -5,7 +5,7 @@ const ProjectSection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/portfolio')
+    fetch('https://d703122b-9954-4101-98a9-a3f2e4f0edcb-00-3st06cvlopl7m.sisko.replit.dev//portfolio')
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
